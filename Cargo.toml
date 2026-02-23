@@ -2,6 +2,12 @@
 name = "codenamr-cli"
 version = "0.1.0"
 edition = "2021"
+description = "A CLI tool for generating and copying codenames."
+license = "AGPL-3.0-only"
+documentation = "https://docs.rs/codenamr-cli"
+homepage = "https://github.com/thomasboom/CodeNamr"
+repository = "https://github.com/thomasboom/CodeNamr"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
