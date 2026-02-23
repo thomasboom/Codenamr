@@ -2,7 +2,7 @@
 name = "codenamr"
 version = "0.1.0"
 edition = "2021"
-description = "A CLI tool for generating and copying codenames."
+description = "A dead simple and lightning fast CLI for generating codenames."
 license = "AGPL-3.0-only"
 documentation = "https://docs.rs/codenamr"
 homepage = "https://github.com/thomasboom/CodeNamr"
