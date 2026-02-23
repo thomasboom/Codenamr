@@ -205,28 +205,28 @@
 
         <div class="card">
             <h2>Install</h2>
-            <p>Run this command in your terminal:</p>
+            <p>Install via cargo (requires Rust):</p>
             <div class="command-block">
-                <code>curl -fsSL https://codenamr.vercel.app/codenamr.sh | bash -s -- install</code>
-                <button onclick="copyCommand(this, 'curl -fsSL https://codenamr.vercel.app/codenamr.sh | bash -s -- install')">Copy</button>
+                <code>cargo install codenamr-cli</code>
+                <button onclick="copyCommand(this, 'cargo install codenamr-cli')">Copy</button>
             </div>
         </div>
 
         <div class="card">
             <h2>Update</h2>
-            <p>To update to the latest version:</p>
+            <p>Update to the latest version:</p>
             <div class="command-block">
-                <code>curl -fsSL https://codenamr.vercel.app/codenamr.sh | bash -s -- update</code>
-                <button onclick="copyCommand(this, 'curl -fsSL https://codenamr.vercel.app/codenamr.sh | bash -s -- update')">Copy</button>
+                <code>cargo install codenamr-cli --force</code>
+                <button onclick="copyCommand(this, 'cargo install codenamr-cli --force')">Copy</button>
             </div>
         </div>
 
         <div class="card">
             <h2>Uninstall</h2>
-            <p>To uninstall:</p>
+            <p>Remove from your system:</p>
             <div class="command-block">
-                <code>curl -fsSL https://codenamr.vercel.app/codenamr.sh | bash -s -- uninstall</code>
-                <button onclick="copyCommand(this, 'curl -fsSL https://codenamr.vercel.app/codenamr.sh | bash -s -- uninstall')">Copy</button>
+                <code>cargo uninstall codenamr-cli</code>
+                <button onclick="copyCommand(this, 'cargo uninstall codenamr-cli')">Copy</button>
             </div>
         </div>
 
