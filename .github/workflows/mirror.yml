@@ -21,10 +21,10 @@ jobs:
         uses: wangchucheng/git-repo-sync@v0.1.0
         with:
           # Your specific target URL
-          target-url: https://codeberg.org/ThomasNowProductions/Codenamr.git
+          target-url: https://codeberg.org/thomasboom/Codenamr.git
           
           # Your Codeberg username
-          target-username: ThomasNowProductions
+          target-username: thomasboom
           
           # The secret you must create in GitHub Settings
           target-token: ${{ secrets.CODEBERG_TOKEN }}
